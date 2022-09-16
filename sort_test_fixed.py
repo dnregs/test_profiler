@@ -8,7 +8,7 @@ def process_infromation_to_file(size=30000):
     write_information_to_file(information)
 
 def create_information(size):
-    random_list = ''
+    random_list = []
     for i in range(size):
         random_list += random.choice('abcdefghijklmnopqrstuvwxyz')
     sorted_string = sorted(random_list)
